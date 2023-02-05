@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CSharpWithMaui.Exercicios.URI_1071"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Soma dos Números Ímpares Consecutivos I">
+    <VerticalStackLayout Spacing="15">
+        <Label
+            Margin="0,50,0,20"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="Leia dois valores inteiros X e Y. Imprima a soma de todos os valores ímpares entre eles."
+            VerticalOptions="Center" />
+
+        <Label
+            FontSize="Title"
+            HorizontalOptions="Center"
+            Text="Entrada"
+            VerticalOptions="Center" />
+
+        <Label
+            Margin="0,0,0,20"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="O arquivo de entrada contém dois valores inteiros"
+            VerticalOptions="Center" />
+
+        <Label
+            FontSize="Title"
+            HorizontalOptions="Center"
+            Text="Saída"
+            VerticalOptions="Center" />
+
+        <Label
+            Margin="0,0,0,20"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="O programa deve imprimir um número inteiro. Esse número é a soma de todos os valores ímpares entre os dois valores de entrada que devem caber em um número inteiro."
+            VerticalOptions="Center" />
+
+        <Button
+            Clicked="Button_Clicked"
+            Text="Começar"
+            WidthRequest="200" />
+
+    </VerticalStackLayout>
+</ContentPage>

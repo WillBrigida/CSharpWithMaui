@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CSharpWithMaui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:exec="clr-namespace:CSharpWithMaui.Exercicios"
+    xmlns:local="clr-namespace:CSharpWithMaui"
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem Title="Home">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Abaixo da média">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate exec:AbaixoDaMedia}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Foreach">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate exec:ForEachPage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="1071">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate exec:URI_1071}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="1072">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate exec:URI_1072}" />
+        </Tab>
+    </FlyoutItem>
+
+</Shell>

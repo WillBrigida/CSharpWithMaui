@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CSharpWithMaui.Exercicios.URI_1072"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Intervalo 2">
+    <VerticalStackLayout Spacing="15">
+
+        <Label
+            Margin="0,50,0,20"
+            FontSize="17"
+            HorizontalOptions="Center"
+            Text="Leia um inteiro N. Este N será o número de números inteiros X que serão lidos.&#10;Imprima quantos desses números X estão no intervalo [10,20] e quantos valores estão fora desse intervalo."
+            VerticalOptions="Center" />
+
+        <Label
+            FontSize="Title"
+            HorizontalOptions="Center"
+            Text="Entrada"
+            VerticalOptions="Center" />
+
+        <Label
+            Margin="0,0,0,30"
+            FontSize="17"
+            HorizontalOptions="Center"
+            Text="A primeira linha de entrada é um inteiro N (N &lt; 10000), que indica o número total de casos de teste.&#10;Cada caso é um número inteiro X (-107 &lt; X &lt; 107)."
+            VerticalOptions="Center" />
+
+        <Label
+            FontSize="Title"
+            HorizontalOptions="Center"
+            Text="Saída"
+            VerticalOptions="Center" />
+
+        <Label
+            Margin="0,0,0,20"
+            FontSize="17"
+            HorizontalOptions="Center"
+            Text="Para cada caso de teste, imprima quantos números estão dentro e quantos valores estão fora do intervalo."
+            VerticalOptions="Center" />
+
+        <Button
+            Clicked="Button_Clicked"
+            Text="Começar"
+            WidthRequest="200" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
